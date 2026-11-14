@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praise-jah henshaw contacts-page</title>
+    
+    <style>
+                    /* HEADER LAYOUT*/
+header{
+    position: static;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+}
+
+        /* Head Navigation LOGO*/
+#navlogo{
+    margin-top: 20px;
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+}
+#logonm{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5px;
+}
+#logonm-b{
+     color: blue; 
+     font-size: 15px; 
+     font-family: 'Courier New', Courier, monospace;
+}
+#logoimg{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+        /* Head Navigation BUTTONs */
+#navcontn{
+    margin-left: 250px;
+    display: inline-block;
+    margin-top: 0px;
+    position: relative;
+}
+.navlink{
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+}
+#pagelinkid{
+    color: blue;
+    font-size: 35px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+}
+
+
+            /* MAIN BODY */
+body{
+        background-image: url("pjPORTFOLIOassets/file_00000000e8b481f49ff999af423f03f7.png");
+        margin: 0px;
+        min-height: 100vh;
+        background-color: #050816;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+       /* CONTACTS */
+#contacts{
+    margin: auto;
+    display: flex;
+}
+#cont-left{
+    height: 750px;
+    width: 775px;
+    margin-left: 150px;
+}
+#contleft-txt{
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 550px;
+    display: block;
+}
+#let{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+}
+#get{
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #0616fb;
+}
+#have{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contleft-box{
+    display: flex;
+}
+.contbox{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #0f51f8;
+    background-color: #0306604f;
+    height: 90px;
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.boxicon-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: #0b308eb0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.boxtxt-head{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.boxtxt-small{
+    font-size: small;
+    font-weight: lighter;
+}
+.arrow-right{
+    margin-top: 30px;
+    margin-right: 10px;
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+#follow{
+    color: #00E5FF;
+    margin-left: 50px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#img-cont{
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.imglink{
+    text-decoration: none;
+}
+.imgbox{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: #0734a4;
+}
+.img{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+}
+#boxfoot{
+    color: #00E5FF;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#line{
+    width: 50px;
+    height: 3px; 
+    margin-left: 50px; 
+    background-color: #00E5FF;
+}
+#cont-right{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0f51f8;
+    border-width: 2px;
+    height: 650px;
+    width: 650px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #030660ac;
+}
+.cont-rightbox{
+    display: block;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+label{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-bottom: 3px;
+}
+input{
+    display: block;
+    height: 40px;
+    width: 600px;
+    background-color: #0306604f;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #0f51f8;
+    color: white;
+}
+input:focus{
+    background-color: #0f51f86d;
+    color: white;
+    font-size: 20px;
+    border-width: 3px;
+}
+select{
+    display: block;
+    height: 40px;
+    width: 600px;
+    background-color: #0306604f;
+    border-color: #0f51f8;
+    border-radius: 10px;
+    border-width: 2px;
+    color: white;
+}
+option{
+    background-color: deepskyblue;
+    color: #040c31;
+    width: 600px;
+    font-size: 20px;
+}
+option:checked{
+    background-color: #03197d;
+    color: white;
+}
+#massage{
+    height: 100px;
+    width: 600px;
+    background-color: #0306604f;
+    color: white;
+    border-color: #0f51f8;
+    border-radius: 10px;
+    border-width: 2px;
+}
+#massage:focus{
+    background-color: #0f51f862;
+    color: white;
+    font-size: 20px;
+    border-width: 3px;
+}
+#butt{
+    height: 50px;
+    background-color: #0f51f8;
+}
+footer{
+    display: block;
+    border-top-style: solid;
+    border-top-color: #0f51f8;
+    border-top-width: 3px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #030660b1;
+}
+.ftbox{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+#ftimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #0f51f8;
+    border-width: 5px;
+}
+#ft-web{
+    font-size: larger;
+}
+@media screen and  (max-width:790px) {
+
+#navcontn{
+    margin-top: 2px;
+    
+}
+.navlink{
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+#pagelinkid{
+    color: blue;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+}
+
+#homerightinfo{
+    display: block;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: blue;
+    margin-top: 50px;
+    margin-right: 50px;
+}#contacts{
+    margin: auto;
+    display: block;
+}
+#cont-left{
+    height: auto;
+    width: auto;
+    margin-left: 5px;
+}
+#contleft-txt{
+    margin-left: 10px;
+    margin-top: 50px;
+    width: auto;
+    display: block;
+}
+#cont-right{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #0f51f8;
+    border-width: 2px;
+    height: 650px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #030660ac;
+}
+input{
+    display: block;
+    height: 40px;
+    width: 300px;
+    background-color: #0306604f;
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #0f51f8;
+    color: white;
+}
+select{
+    display: block;
+    height: 40px;
+    width: 300px;
+    background-color: #0306604f;
+    border-color: #0f51f8;
+    border-radius: 10px;
+    border-width: 2px;
+    color: white;
+}
+option{
+    background-color: deepskyblue;
+    color: #040c31;
+    width: 300px;
+    font-size: 20px;
+}
+#massage{
+    height: 100px;
+    width: 300px;
+    background-color: #0306604f;
+    color: white;
+    border-color: #0f51f8;
+    border-radius: 10px;
+    border-width: 2px;
+}
+footer{
+    display: block;
+    border-top-style: solid;
+    border-top-color: #0f51f8;
+    border-top-width: 3px;
+    height: auto;
+    justify-content: space-between;
+    background-color: #030660;
+}
+.ftbox{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+.contbox{
+
+    border-style: solid;
+
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #0f51f8;
+    background-color: #0306604f;
+    height: 90px;
+    width: 330px;
+    margin-left: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#follow{
+
+    color: #00E5FF;
+
+    margin-left: 10px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#img-cont{
+
+    display: flex;
+
+    gap: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="navlogo">
+            <img src="pjPORTFOLIOassets/file_00000000ba248243867ce5d4ca88198b.png" alt="logo" id="logoimg">
+            <p id="logonm">
+                Praise-jah Henshaw
+                    <br>
+                <span id="logonm-b">Web Developer</span>
+            </p>
+        </div>
+
+        <nav id="navcontn">
+            <a href="index.html" class="navlink">Home</a>
+            <a href="pjPORTFOLIO-about.html" class="navlink">About</a>
+            <a href="pjPORTFOLIO-projects.html" class="navlink">Projects</a>
+            <a href="pjPORTFOLIO-skills.html" class="navlink">Skills</a>
+            <a href="pjPORTFOLIO-contacts.html" class="navlink" id="pagelinkid">Contacts</a>
+        </nav>
+    </header>
+
+    <main id="contacts">
+        <div id="cont-left">
+            <div id="contleft-txt">
+                <span id="let">let's connect</span>
+                    <br>
+                <span id="get">Get In Touch</span>
+           
+                    <p id="have">Have a Project Idea, Job opportunity or just want to say Hello? Feel free to reach out. I'd Love to hear from you</p>
+            </div>
+
+                <div class="contleft-box">
+                    <div class="contbox">
+                        <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272f - Copy (3).png" alt="email" class="boxicon-img">
+                            <div class="boxtxt-head">Email
+                                    <br>
+                                <span class="boxtxt-small">Send Me an Email Anytime</span>
+                            </div>
+                                <div>
+                                    <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272farrowright.png" alt=">" class="arrow-right">
+                                </div>
+                        </div>
+                    <div class="contbox">
+                        <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272fphone.png" alt="phone" class="boxicon-img">
+                            <div class="boxtxt-head">Phone
+                                    <br>
+                                <span class="boxtxt-small">Call or WhatsApp me</span>
+                            </div>
+                                <div>
+                                    <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272farrowright.png" alt=">" class="arrow-right">
+                                </div>
+                        </div>
+                    </div>
+                <div class="contleft-box">
+                    <div class="contbox">
+                        <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272flocation.png" alt="location" class="boxicon-img">
+                            <div class="boxtxt-head">Location
+                                <br>
+                                <span class="boxtxt-small">Anambra st, Nigeria</span>
+                            </div>
+                                <div>
+                                    <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272farrowright.png" alt=">" class="arrow-right">
+                                </div>
+                        </div>
+                    <div class="contbox">
+                        <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272fwhatsapp.png" alt="whatsapp" class="boxicon-img">
+                            <div class="boxtxt-head">WhatsApp
+                                    <br>
+                                <span class="boxtxt-small">Chat with me on WhatsApp</span>
+                            </div>
+                                <div>
+                                    <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272farrowright.png" alt=">" class="arrow-right">
+                                </div>
+                        </div>
+                    </div>
+
+                    <p id="follow">Follow Me --</p>
+
+                    <div id="img-cont">
+                        <a href="" class="imglink">
+                            <div class="imgbox">
+                                <img src="pjPORTFOLIOassets/file_00000000b9f48210a598b18e78f59525.png" alt="Github" class="img">
+                            </div>
+                        </a>
+
+                        <a href="" class="imglink">
+                            <div class="imgbox">
+                                <img src="pjPORTFOLIOassets/file_00000000243c8243a176eb9eab18a907.png" alt="Linkedin" class="img">
+                            </div>
+                        </a>
+
+                        <a href="" class="imglink">
+                            <div class="imgbox">
+                                <img src="pjPORTFOLIOassets/file_000000005d9081f4942f82cc04c1f793.png" alt="X" class="img">
+                            </div>
+                        </a>
+
+                        <a href="" class="imglink">
+                            <div class="imgbox">
+                                <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272f - Copy.png" alt="Instagram" class="img">
+                            </div>
+                        </a>
+
+                        <a href="" class="imglink">
+                            <div class="imgbox">
+                                <img src="pjPORTFOLIOassets/file_000000006c7481f4b4a87f8f32d6272f - Copy (2).png" alt="YouTube" class="img">
+                            </div>
+                        </a>
+                    </div>
+
+                    <p id="boxfoot">Let's build something amazing together</p>
+                    <div id="line"></div>
+
+            </div>
+        <div id="cont-right">
+            <div class="cont-rightbox">
+                <span>Send Me a Massage</span>
+                        <br>
+                    <span>Fill out the Form Below and I'll get back to you as soon as Possible</span>
+                </div>
+
+            <form action="">
+                <div class="cont-rightbox">
+                    <label for="fullname">Full Name</label>
+                            <br>
+                        <input type="text" name="fullname" id="fullname" placeholder=" Your name">
+                            </div>
+                <div class="cont-rightbox">
+                    <label for="emailadr">Email Address</label>
+                            <br>
+                        <input type="email" name="emailadr" id="emailadr" placeholder=" your@email.com">
+                            </div>
+                <div class="cont-rightbox">
+                    <label for="subject">Subject</label>
+                            <br>
+                        <select name="subject" id="subject" placeholder=" Select a subject">
+                            <option value="subjectA">subjectA</option>
+                                <option value="subjectB">subjectB</option>
+                                    <option value="subjectC">subjectC</option>
+                                        <option value="subjectD">subjectD</option>
+                                            <option value="subjectE">subjectE</option>
+                                                <option value="subjectF">subjectF</option>
+                                                    <option value="subjectG">subjectG</option>
+                                            </select>
+                                    </div>
+                <div class="cont-rightbox">                  
+                    <label for="massage">Massage</label>
+                            <br>
+                        <textarea name="massage" id="massage"> Your massage...</textarea>
+                            </div> 
+                <div class="cont-rightbox">        
+                    <input type="button" value="Send Massage"  id="butt">
+                        </div>
+            </form>
+            </div>
+    </main>
+
+    <footer>
+        <div class="ftbox">
+            <img src="pjPORTFOLIOassets/file_00000000ba248243867ce5d4ca88198b.png" alt="logo" id="ftimg" alt="pjlogo">
+            <p>
+                <span id="ft-web">Praise-jah Henshaw</span>
+                <br>
+                Web Developer
+            </p>
+            </div>
+
+        <div class="ftbox">2026 Praise-jah Henshaw.All Rights Reserved</div>
+
+        <div class="ftbox">Code . Create . Build . Grow</div>
+
+    </footer>
+</body>
+</html>
