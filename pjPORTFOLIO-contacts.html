@@ -573,37 +573,46 @@ footer{
                     <span>Fill out the Form Below and I'll get back to you as soon as Possible</span>
                 </div>
 
-            <form action="">
+          <form action="https://formsubmit.co/praisejahhenshaw@gmail.com" method="POST">
                 <div class="cont-rightbox">
                     <label for="fullname">Full Name</label>
                             <br>
-                        <input type="text" name="fullname" id="fullname" placeholder=" Your name">
+                        <input type="text" name="fullname" id="fullname" placeholder=" Your name" required>
                             </div>
                 <div class="cont-rightbox">
                     <label for="emailadr">Email Address</label>
                             <br>
-                        <input type="email" name="emailadr" id="emailadr" placeholder=" your@email.com">
+                        <input type="email" name="emailadr" id="emailadr" placeholder=" your@email.com" required>
                             </div>
                 <div class="cont-rightbox">
                     <label for="subject">Subject</label>
                             <br>
-                        <select name="subject" id="subject" placeholder=" Select a subject">
-                            <option value="subjectA">subjectA</option>
-                                <option value="subjectB">subjectB</option>
-                                    <option value="subjectC">subjectC</option>
-                                        <option value="subjectD">subjectD</option>
-                                            <option value="subjectE">subjectE</option>
-                                                <option value="subjectF">subjectF</option>
-                                                    <option value="subjectG">subjectG</option>
+                        <select name="subject" id="subject" placeholder=" Select a subject" required>
+    <option value="" selected disabled>Select a subject</option>
+    <option value="Website Development">Website Development</option>
+    <option value="Website Redesign">Website Redesign</option>
+    <option value="Frontend Development">Frontend Development</option>
+    <option value="Job Opportunity">Job Opportunity</option>
+    <option value="General Inquiry">General Inquiry</option>
                                             </select>
                                     </div>
                 <div class="cont-rightbox">                  
                     <label for="massage">Massage</label>
                             <br>
-                        <textarea name="massage" id="massage"> Your massage...</textarea>
+<textarea 
+
+    name="message" 
+
+    id="massage" 
+
+    placeholder="Write your message here..."
+
+    required>
+
+</textarea>
                             </div> 
                 <div class="cont-rightbox">        
-                    <input type="button" value="Send Massage"  id="butt">
+                    <input type="submit" value="Send Massage"  id="butt">
                         </div>
             </form>
             </div>
